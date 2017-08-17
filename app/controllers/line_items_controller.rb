@@ -1,9 +1,6 @@
 class LineItemsController < ApplicationController
-<<<<<<< HEAD
   include CurrentCart
   before_action :set_cart, only: [:create]
-=======
->>>>>>> Generate scaffold for LineItem
   before_action :set_line_item, only: [:show, :edit, :update, :destroy]
 
   # GET /line_items
